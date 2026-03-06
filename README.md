@@ -1,5 +1,7 @@
 <div id="top"></div>
 
+> **Fork Notice:** This is a fork maintained by [Artifex-org](https://github.com/Artifex-org) for internal use as an integrated survey platform. All modifications are documented in [CHANGES.md](./CHANGES.md). Upstream: [formbricks/formbricks](https://github.com/formbricks/formbricks). Licensed under AGPL-3.0-or-later.
+
 <p align="center">Help us grow and star us on Github! ⭐️</p>
 
 <p align="center">
