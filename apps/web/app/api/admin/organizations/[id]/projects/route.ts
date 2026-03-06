@@ -63,7 +63,7 @@ export const POST = async (request: NextRequest, props: Context): Promise<Respon
       { key: "language", name: "Language", description: "The language preference of a contact", type: "default" as const },
     ];
 
-    const environments = [];
+    const environments: { id: string; type: string; createdAt: Date }[] = [];
     for (const envData of environmentData) {
       const environment = await prisma.environment.create({
         data: {
